@@ -1,0 +1,28 @@
+/**
+ * @name Midnight Flux — Ocean
+ * @description Abyssal navy, cobalt, aqua, and turquoise flavor for Midnight Flux.
+ */
+
+@import url("../midnight-flux.css");
+
+body {
+    --cyber-background-image: on;
+    /* Choose hd, 2k, or 4k here. */
+    --flux-background-hd: url("https://raw.githubusercontent.com/CodeKarstenJ/midnight-flux/main/assets/hd/ocean.jpg");
+    --flux-background-2k: url("https://raw.githubusercontent.com/CodeKarstenJ/midnight-flux/main/assets/2k/ocean.jpg");
+    --flux-background-4k: url("https://raw.githubusercontent.com/CodeKarstenJ/midnight-flux/main/assets/4k/ocean.jpg");
+    --cyber-background-image-url: var(--flux-background-hd);
+    --cyber-bg-floating: hsl(210 48% 6% / 0.90);
+    --cyber-sidebar-opacity: 0.68;
+    --cyber-chat-opacity: 0.66;
+    --cyber-memberlist-opacity: 0.68;
+}
+
+:root {
+    --flux-primary-hue: 190;
+    --flux-secondary-hue: 220;
+    --flux-tertiary-hue: 175;
+    --flux-surface-hue: 210;
+    --flux-surface-saturation: 48%;
+    --flux-accent-saturation: 92%;
+}

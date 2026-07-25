@@ -1,0 +1,31 @@
+/**
+ * @name Midnight Flux — Arctic
+ * @description Calm polar slate, aurora cyan, snow-white, and lavender flavor for Midnight Flux.
+ */
+
+@import url("../midnight-flux.css");
+
+body {
+    --cyber-background-image: on;
+    /* Choose hd, 2k, or 4k here. */
+    --flux-background-hd: url("https://raw.githubusercontent.com/CodeKarstenJ/midnight-flux/main/assets/hd/arctic.jpg");
+    --flux-background-2k: url("https://raw.githubusercontent.com/CodeKarstenJ/midnight-flux/main/assets/2k/arctic.jpg");
+    --flux-background-4k: url("https://raw.githubusercontent.com/CodeKarstenJ/midnight-flux/main/assets/4k/arctic.jpg");
+    --cyber-background-image-url: var(--flux-background-hd);
+    --cyber-bg-floating: hsl(215 28% 8% / 0.90);
+    --cyber-sidebar-opacity: 0.72;
+    --cyber-chat-opacity: 0.70;
+    --cyber-memberlist-opacity: 0.72;
+}
+
+:root {
+    --flux-primary-hue: 190;
+    --flux-secondary-hue: 218;
+    --flux-tertiary-hue: 270;
+    --flux-surface-hue: 215;
+    --flux-surface-saturation: 28%;
+    --flux-accent-saturation: 58%;
+
+    --cyber-text-1: hsl(205 32% 96%);
+    --cyber-accent-4: hsl(270 48% 74%);
+}

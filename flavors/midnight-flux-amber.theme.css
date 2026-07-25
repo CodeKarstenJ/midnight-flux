@@ -1,0 +1,28 @@
+/**
+ * @name Midnight Flux — Amber
+ * @description Warm amber, honey, and golden-orange flavor for Midnight Flux.
+ */
+
+@import url("../midnight-flux.css");
+
+body {
+    --cyber-background-image: on;
+    /* Choose hd, 2k, or 4k here. */
+    --flux-background-hd: url("https://raw.githubusercontent.com/CodeKarstenJ/midnight-flux/main/assets/hd/amber.jpg");
+    --flux-background-2k: url("https://raw.githubusercontent.com/CodeKarstenJ/midnight-flux/main/assets/2k/amber.jpg");
+    --flux-background-4k: url("https://raw.githubusercontent.com/CodeKarstenJ/midnight-flux/main/assets/4k/amber.jpg");
+    --cyber-background-image-url: var(--flux-background-hd);
+    --cyber-bg-floating: hsl(30 34% 7% / 0.90);
+    --cyber-sidebar-opacity: 0.70;
+    --cyber-chat-opacity: 0.68;
+    --cyber-memberlist-opacity: 0.70;
+}
+
+:root {
+    --flux-primary-hue: 36;
+    --flux-secondary-hue: 24;
+    --flux-tertiary-hue: 48;
+    --flux-surface-hue: 30;
+    --flux-surface-saturation: 34%;
+    --flux-accent-saturation: 94%;
+}

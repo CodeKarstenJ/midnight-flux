@@ -1,0 +1,28 @@
+/**
+ * @name Midnight Flux — Emerald
+ * @description Jewel-toned emerald and teal flavor for Midnight Flux.
+ */
+
+@import url("../midnight-flux.css");
+
+body {
+    --cyber-background-image: on;
+    /* Choose hd, 2k, or 4k here. */
+    --flux-background-hd: url("https://raw.githubusercontent.com/CodeKarstenJ/midnight-flux/main/assets/hd/emerald.jpg");
+    --flux-background-2k: url("https://raw.githubusercontent.com/CodeKarstenJ/midnight-flux/main/assets/2k/emerald.jpg");
+    --flux-background-4k: url("https://raw.githubusercontent.com/CodeKarstenJ/midnight-flux/main/assets/4k/emerald.jpg");
+    --cyber-background-image-url: var(--flux-background-hd);
+    --cyber-bg-floating: hsl(160 38% 7% / 0.88);
+    --cyber-sidebar-opacity: 0.68;
+    --cyber-chat-opacity: 0.66;
+    --cyber-memberlist-opacity: 0.68;
+}
+
+:root {
+    --flux-primary-hue: 152;
+    --flux-secondary-hue: 174;
+    --flux-tertiary-hue: 132;
+    --flux-surface-hue: 160;
+    --flux-surface-saturation: 38%;
+    --flux-accent-saturation: 88%;
+}
