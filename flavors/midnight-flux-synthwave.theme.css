@@ -6,16 +6,16 @@
 @import url("../midnight-flux.css");
 
 body {
-    --cyber-background-image: on;
+    --flux-background-image: on;
     /* Choose hd, 2k, or 4k here. */
     --flux-background-hd: url("https://codekarstenj.github.io/midnight-flux/assets/hd/synthwave.jpg");
     --flux-background-2k: url("https://codekarstenj.github.io/midnight-flux/assets/2k/synthwave.jpg");
     --flux-background-4k: url("https://codekarstenj.github.io/midnight-flux/assets/4k/synthwave.jpg");
-    --cyber-background-image-url: var(--flux-background-hd);
-    --cyber-bg-floating: hsl(270 44% 8% / 0.88);
-    --cyber-sidebar-opacity: 0.66;
-    --cyber-chat-opacity: 0.64;
-    --cyber-memberlist-opacity: 0.66;
+    --flux-background-image-url: var(--flux-background-hd);
+    --flux-bg-floating: hsl(270 44% 8% / 0.88);
+    --flux-sidebar-opacity: 0.66;
+    --flux-chat-opacity: 0.64;
+    --flux-memberlist-opacity: 0.66;
 }
 
 :root {
@@ -26,7 +26,7 @@ body {
     --flux-surface-saturation: 44%;
     --flux-accent-saturation: 100%;
 
-    --cyber-dms-gradient: linear-gradient(
+    --flux-dms-gradient: linear-gradient(
         135deg,
         hsl(195 82% 18%),
         hsl(270 65% 16%),

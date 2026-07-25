@@ -6,16 +6,16 @@
 @import url("../midnight-flux.css");
 
 body {
-    --cyber-background-image: on;
+    --flux-background-image: on;
     /* Choose hd, 2k, or 4k here. */
     --flux-background-hd: url("https://codekarstenj.github.io/midnight-flux/assets/hd/obsidian.jpg");
     --flux-background-2k: url("https://codekarstenj.github.io/midnight-flux/assets/2k/obsidian.jpg");
     --flux-background-4k: url("https://codekarstenj.github.io/midnight-flux/assets/4k/obsidian.jpg");
-    --cyber-background-image-url: var(--flux-background-hd);
-    --cyber-bg-floating: hsl(245 14% 5% / 0.94);
-    --cyber-sidebar-opacity: 0.78;
-    --cyber-chat-opacity: 0.76;
-    --cyber-memberlist-opacity: 0.78;
+    --flux-background-image-url: var(--flux-background-hd);
+    --flux-bg-floating: hsl(245 14% 5% / 0.94);
+    --flux-sidebar-opacity: 0.78;
+    --flux-chat-opacity: 0.76;
+    --flux-memberlist-opacity: 0.78;
 }
 
 :root {
@@ -26,6 +26,6 @@ body {
     --flux-surface-saturation: 14%;
     --flux-accent-saturation: 34%;
 
-    --cyber-text-1: hsl(230 18% 94%);
-    --cyber-accent-new: hsl(270 45% 70%);
+    --flux-text-1: hsl(230 18% 94%);
+    --flux-accent-new: hsl(270 45% 70%);
 }
