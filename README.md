@@ -47,9 +47,9 @@ Every flavor exposes three hosted background variables and defaults to HD:
 
 ```css
 body {
-    --flux-background-hd: url("https://raw.githubusercontent.com/CodeKarstenJ/midnight-flux/main/assets/hd/purple-neon.jpg");
-    --flux-background-2k: url("https://raw.githubusercontent.com/CodeKarstenJ/midnight-flux/main/assets/2k/purple-neon.jpg");
-    --flux-background-4k: url("https://raw.githubusercontent.com/CodeKarstenJ/midnight-flux/main/assets/4k/purple-neon.jpg");
+    --flux-background-hd: url("https://codekarstenj.github.io/midnight-flux/assets/hd/purple-neon.jpg");
+    --flux-background-2k: url("https://codekarstenj.github.io/midnight-flux/assets/2k/purple-neon.jpg");
+    --flux-background-4k: url("https://codekarstenj.github.io/midnight-flux/assets/4k/purple-neon.jpg");
 
     --cyber-background-image-url: var(--flux-background-hd);
 }

@@ -8,9 +8,9 @@
 body {
     --cyber-background-image: on;
     /* Choose hd, 2k, or 4k here. */
-    --flux-background-hd: url("https://raw.githubusercontent.com/CodeKarstenJ/midnight-flux/main/assets/hd/synthwave.jpg");
-    --flux-background-2k: url("https://raw.githubusercontent.com/CodeKarstenJ/midnight-flux/main/assets/2k/synthwave.jpg");
-    --flux-background-4k: url("https://raw.githubusercontent.com/CodeKarstenJ/midnight-flux/main/assets/4k/synthwave.jpg");
+    --flux-background-hd: url("https://codekarstenj.github.io/midnight-flux/assets/hd/synthwave.jpg");
+    --flux-background-2k: url("https://codekarstenj.github.io/midnight-flux/assets/2k/synthwave.jpg");
+    --flux-background-4k: url("https://codekarstenj.github.io/midnight-flux/assets/4k/synthwave.jpg");
     --cyber-background-image-url: var(--flux-background-hd);
     --cyber-bg-floating: hsl(270 44% 8% / 0.88);
     --cyber-sidebar-opacity: 0.66;

@@ -8,9 +8,9 @@
 body {
     --cyber-background-image: on;
     /* Choose hd, 2k, or 4k here. */
-    --flux-background-hd: url("https://raw.githubusercontent.com/CodeKarstenJ/midnight-flux/main/assets/hd/crimson-raven.jpg");
-    --flux-background-2k: url("https://raw.githubusercontent.com/CodeKarstenJ/midnight-flux/main/assets/2k/crimson-raven.jpg");
-    --flux-background-4k: url("https://raw.githubusercontent.com/CodeKarstenJ/midnight-flux/main/assets/4k/crimson-raven.jpg");
+    --flux-background-hd: url("https://codekarstenj.github.io/midnight-flux/assets/hd/crimson-raven.jpg");
+    --flux-background-2k: url("https://codekarstenj.github.io/midnight-flux/assets/2k/crimson-raven.jpg");
+    --flux-background-4k: url("https://codekarstenj.github.io/midnight-flux/assets/4k/crimson-raven.jpg");
     --cyber-background-image-url: var(--flux-background-hd);
     --cyber-blur-amount: 10px;
     --cyber-bg-floating: hsl(350 18% 8% / 0.90);
