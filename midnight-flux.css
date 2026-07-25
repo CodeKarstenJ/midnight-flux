@@ -1,6 +1,14 @@
 /**
- * Midnight Flux Core
- *
+ * @name Midnight Flux - Core
+ * @description The shared structural core and palette engine for Midnight Flux.
+ * @author CodeKarstenJ
+ * @version 1.0.0
+ * @website https://codekarstenj.github.io/midnight-flux/
+ * @source https://github.com/CodeKarstenJ/midnight-flux/blob/main/midnight-flux.css
+ * @authorLink https://github.com/CodeKarstenJ
+ */
+
+/*
  * Structural parent theme:
  * 1. imports refact0r Midnight;
  * 2. exposes the complete Midnight defaults as --midnight-*;
